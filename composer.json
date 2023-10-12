@@ -1,5 +1,5 @@
 {
-    "name": "fractas/cookiepolicy",
+    "name": "violet88/cookiepolicy",
     "description": "Simple and configurable SilverStripe module to notify users about cookie policies",
     "type": "silverstripe-vendormodule",
     "homepage": "http://github.com/fractaslabs/silverstripe-cookie-policy-notification",
