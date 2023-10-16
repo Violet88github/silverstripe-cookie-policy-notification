@@ -34,9 +34,9 @@ class CookiePolicy extends Extension
             }
 
             if (Config::inst()->get(static::class, 'load_script_defer')) {
-                Requirements::javascript('fractas/cookiepolicy:client/dist/javascript/jquery.cookie.policy.min.js', ['defer' => true]);
+                Requirements::javascript('violet88/cookiepolicy:client/dist/javascript/jquery.cookie.policy.min.js', ['defer' => true]);
             } else {
-                Requirements::javascript('fractas/cookiepolicy:client/dist/javascript/jquery.cookie.policy.min.js');
+                Requirements::javascript('violet88/cookiepolicy:client/dist/javascript/jquery.cookie.policy.min.js');
             }
         }
     }
